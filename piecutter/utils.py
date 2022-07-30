@@ -1,12 +1,13 @@
 """Helper functions used through piecutter"""
-import os
-import secrets
-
 from .frameworks.bento import write_train_file
 from .frameworks.bento import write_predict_file
 from .frameworks.bento import write_bentofile_file
 from .frameworks.pycaret import write_pycaret_service
-from .templates.bento_structure import BENTO_DIR_NAME
+from .frameworks.piecutter import write_makefile
+from .frameworks.piecutter import write_readme_file
+from .frameworks.piecutter import write_test_train_file
+from .frameworks.piecutter import write_test_predict_file
+from .frameworks.piecutter import write_requirements_txt_file
 
 
 def read_script_files(script_path: str) -> str:
@@ -56,15 +57,40 @@ def write_bento_deployable_files(file: str, base_framework: str) -> str:
     Returns:
         str: The file code.
     """
-    if file == os.path.join(BENTO_DIR_NAME, "service.py"):
+    if "service.py" in file:
         if base_framework == "pycaret":
             return write_pycaret_service()
 
-    if file == os.path.join(BENTO_DIR_NAME, "bentofile.yaml"):
+    if "bentofile.yaml" in file:
         return write_bentofile_file()
 
-    if file == os.path.join(BENTO_DIR_NAME, "train.py"):
+    if "train.py" in file:
         return write_train_file()
 
-    if file == os.path.join(BENTO_DIR_NAME, "predict.py"):
+    if "predict.py" in file:
         return write_predict_file()
+
+
+def write_piecutter_project_files(file: str) -> str:
+    """Writes the right content in the right piecutter project file.
+
+    Args:
+        file (str): The path of the file.
+
+    Returns:
+        str: The string file content.
+    """
+    if "Makefile" in file:
+        return write_makefile()
+
+    if "README.md" in file:
+        return write_readme_file()
+
+    if "requirements.txt" in file:
+        return write_requirements_txt_file()
+
+    if "test_predict.py" in file:
+        return write_test_predict_file()
+
+    if "test_train.py" in file:
+        return write_test_train_file()
