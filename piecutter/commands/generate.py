@@ -53,11 +53,8 @@ def bento(
 
 @app.command()
 def api_route(endpoint_name: str, secured: bool = Option(...)) -> None:
-    """Creates a brand new BentoML endpoint on an existing Bento.
-
-    Args:
-        endpoint_name (str): Endpoint name.
-        secured (bool): The new endpoint is/isn't secured with JWT.
+    """
+    Creates a brand new BentoML API endpoint on an existing Bento. 
     """
     # checking if a service.py file does exist
     service_file_path = os.path.join(BENTO_DIR_NAME, "service.py")

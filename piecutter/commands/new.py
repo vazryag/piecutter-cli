@@ -12,10 +12,8 @@ app = Typer()
 
 @app.command()
 def project(name: str = Option(...)) -> None:
-    """Automatically generates a project directory with a structure.
-
-    Args:
-        name (str): The name of the project.
+    """
+    Generates a new project folder with a pre-built structure for research.
     """
     try:
         # initializing files and folders template
