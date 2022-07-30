@@ -109,3 +109,14 @@ And a folder with the following structure will be added to your project director
     ------------
 
 You can see the real world version of this file in the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression/bento" target="_blank">examples/diamonds-prices-regression/bento</a>.
+
+*OBS.: Please, execute this command form the outside of your project root dir. This bug will be fixed in the next release.*
+
+### Generate a New API Route
+The `piecutter generate bento` command generates the file responsible to start the BentoML server, but without any API endpoint. You can use the command below to generate a new secured/unsecured API endpoint.
+
+    $ piecutter generate api-route predict [--secured / --no-secured]
+
+Use `--secured` for generating a JWT secured API and `--no-secured` for an endpoint without any authentication strategy.
+
+In the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> project I've generated an unsecure API endpoint for inference.
