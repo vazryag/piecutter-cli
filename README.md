@@ -52,12 +52,60 @@ To install `piecutter-cli` it's really simple.
     $ pip install piecutter-cli
 
 ## Usage
+### Package Version
 With `piecutter-cli` installed, you're ready to use it! Run the command down below to check if it's working properly.
 
     $ piecutter version
 
+### Package Documentation
 It should returns the current version of the package. You can also run the command down below to open the official documentation on the browser.
 
     $ piecutter docs
 
 And then this GitHub page should appear in your browser.
+
+### Generate a New Project
+To generate a new project structure you need to run:
+
+    $ piecutter new project --name diamonds-prices-regression
+
+In the example above we're create a new project called `diamonds-prices-regression` with the following structure:
+
+    ------------
+        ├── Makefile              -> The Makefile of your project.
+        ├── README.md             -> The README.md file for describing your project.
+        ├── requirements.txt      -> List of requirements to run your code.
+        ├── data                  -> The dataset of your project at different stages.
+        │   ├── raw
+        │   ├── processed
+        │   ├── finalized
+        ├── notebooks             -> Your jupyter notebooks.
+        ├── references            -> Any external reference used in your project.
+        ├── results               -> Results folder to store figures, tables and trained models.
+        │   ├── figures
+        │   ├── models
+        │   ├── tables
+        ├── tests                 -> Write tests to your scripts here!
+        |    ├── test_predict.py
+        |    ├── test_train.py
+    ------------
+
+You can check out this real world project implemented in our <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> folder.
+
+When you have your final model trained and ready for production, you need to generate a bento.
+
+### Generate a New Bento
+With the command shown below Piecutter will generate a `/bento` folder inside your project directory with all the necessary files to put your model into production as a docker image.
+
+    $ piecutter generate bento --base-framework pycaret
+
+And a folder with the following structure will be added to your project directory:
+
+    ------------
+        ├── bentofile.yaml          -> File used by bento to build the BentoML image.
+        ├── predict.py              -> Script to generate predictions with your trained model.
+        ├── service.py              -> The BentoML service file, which starts the Bento server.
+        ├── train.py                -> Script to retrain your model (and serialize it in the current dir)
+    ------------
+
+You can see the real world version of this file in the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression/bento" target="_blank">examples/diamonds-prices-regression/bento</a>.
