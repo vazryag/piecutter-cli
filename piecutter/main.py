@@ -22,10 +22,9 @@ app.add_typer(generate.app, name="generate")
 @app.command()
 def docs() -> None:
     """
-    Opens up the official Piecutter documentation on
-    the browser.
+    Opens the official Piecutter CLI documentation on the browser. 
     """
-    launch_browser("https://github.com/g0nz4rth")
+    launch_browser("https://github.com/g0nz4rth/piecutter-cli")
 
 
 @app.command()
