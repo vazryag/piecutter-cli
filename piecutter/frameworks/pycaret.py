@@ -1,3 +1,6 @@
+"""Writes PyCaret-wide files"""
+
+
 def write_pycaret_service() -> None:
     """Writes a custom BentoML runnable for PyCaret."""
     return "\n".join(
