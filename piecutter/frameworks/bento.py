@@ -1,8 +1,8 @@
-"""Templates related to BentoML scripts"""
+"""Writes BentoML-wide files"""
 import secrets
 
 
-def generate_bento_auth_token() -> str:
+def __generate_bento_auth_token() -> str:
     """Generates an authentication token for secured endpoints.
 
     Returns:
@@ -96,7 +96,7 @@ def write_api_endpoint(name: str, secured: bool, has_session_middleware: bool) -
                 )
             )
 
-        security_token = generate_bento_auth_token()
+        security_token = __generate_bento_auth_token()
         return "\n".join(
             (
                 " ",
