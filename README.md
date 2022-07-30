@@ -69,7 +69,7 @@ To generate a new project structure you need to run:
 
     $ piecutter new project --name diamonds-prices-regression
 
-In the example above we're create a new project called `diamonds-prices-regression` with the following structure:
+In the example above we've created a new project called `diamonds-prices-regression` with the following structure:
 
     ------------
         ├── Makefile              -> The Makefile of your project.
