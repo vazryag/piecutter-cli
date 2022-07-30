@@ -8,20 +8,22 @@
 
 ## Base Piecutter Project Structure
     ------------
-        ├── Makefile
-        ├── README.md
-        ├── requirements.txt
-        ├── data
+        ├── Makefile              -> The Makefile of your project.
+        ├── README.md             -> The README.md file for describing your project.
+        ├── requirements.txt      -> List of requirements to run your code.
+        ├── data                  -> The dataset of your project at different stages.
         │   ├── raw
         │   ├── processed
         │   ├── finalized
-        ├── notebooks
-        ├── references
-        ├── results
+        ├── notebooks             -> Your jupyter notebooks.
+        ├── references            -> Any external reference used in your project.
+        ├── results               -> Results folder to store figures, tables and trained models.
         │   ├── figures
         │   ├── models
         │   ├── tables
-        ├── tests
+        ├── tests                 -> Write tests to your scripts here!
+        |    ├── test_predict.py
+        |    ├── test_train.py
     ------------
 
 ## Why Piecutter?
