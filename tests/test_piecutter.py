@@ -14,6 +14,6 @@ def test_version():
 
 
 def test_command_new():
-    result = runner.invoke(main.app, ["new", "example-project"])
+    result = runner.invoke(main.app, ["new", "project", "--name", "example-project"])
     assert result.exit_code == 0
     assert "The project 'example-project' was successfully created!" in result.stdout
