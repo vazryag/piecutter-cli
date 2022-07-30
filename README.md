@@ -51,3 +51,13 @@ To install `piecutter-cli` it's really simple.
 
     $ pip install piecutter-cli
 
+## Usage
+With `piecutter-cli` installed, you're ready to use it! Run the command down below to check if it's working properly.
+
+    $ piecutter version
+
+It should returns the current version of the package. You can also run the command down below to open the official documentation on the browser.
+
+    $ piecutter docs
+
+And then this GitHub page should appear in your browser.
