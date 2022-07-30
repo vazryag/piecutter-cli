@@ -35,7 +35,7 @@ def bento(
         )
 
     try:
-        # initializing bento files template 
+        # initializing bento files template
         bento_files = define_bento_files()
 
         # creating bento files
@@ -54,7 +54,7 @@ def bento(
 @app.command()
 def api_route(endpoint_name: str, secured: bool = Option(...)) -> None:
     """
-    Creates a brand new BentoML API endpoint on an existing Bento. 
+    Creates a brand new BentoML API endpoint on an existing Bento.
     """
     # checking if a service.py file does exist
     service_file_path = os.path.join(BENTO_DIR_NAME, "service.py")
