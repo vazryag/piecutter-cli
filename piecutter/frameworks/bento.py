@@ -41,7 +41,7 @@ def write_predict_file() -> str:
             "# import libs you need for sample processing and prediction",
             "# ...",
             " ",
-            "def sample_preprocessing(input_data):",
+            "def __sample_preprocessing(input_data):",
             '    """Pre-process the data sent by the client for machine learning."""',
             "    pass",
             " ",
