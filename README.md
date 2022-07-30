@@ -2,7 +2,7 @@
     <img src="statics/logo.png" width="250" />
     <h4>
         An open-source CLI app to build your entire ML project, from research to production. <br />
-        Piecutter-CLI 0.1.0 is released! `pip install piecutter-cli`
+        Piecutter-CLI 0.1.0 is released! :rocket:
     </h4> 
 </div>
 
