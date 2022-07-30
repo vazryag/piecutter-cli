@@ -1,10 +1,10 @@
-from optparse import Option
 import os
 
 from typer import Typer
 from typer import Option
 
 from ..templates import base_structure
+from ..utils import write_piecutter_project_files
 
 
 app = Typer()
@@ -25,8 +25,9 @@ def project(name: str = Option(...)) -> None:
         for folder in project_directories:
             os.makedirs(folder)
 
-        for files in project_files:
-            with open(files, "w") as f:
+        for file in project_files:
+            with open(file, "w") as f:
+                f.write(write_piecutter_project_files(os.path.join(name, file)))
                 f.close()
 
         print(f"The project '{name}' was successfully created!")
