@@ -1,0 +1,156 @@
+2022-07-30 02:16:53,850:INFO:Initializing load_model()
+2022-07-30 02:16:53,850:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:21:11,842:INFO:Initializing load_model()
+2022-07-30 02:21:11,842:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:21:48,514:INFO:Initializing load_model()
+2022-07-30 02:21:48,514:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:23:14,260:INFO:Initializing load_model()
+2022-07-30 02:23:14,260:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:24:09,803:INFO:Initializing load_model()
+2022-07-30 02:24:09,803:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:25:02,682:INFO:Initializing load_model()
+2022-07-30 02:25:02,682:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:25:33,513:INFO:Initializing load_model()
+2022-07-30 02:25:33,514:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:25:35,526:INFO:Initializing predict_model()
+2022-07-30 02:25:35,526:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['color', 'clarity'],
+                                      display_types=False,
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table', 'x', 'y',
+                                                          'z'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                tar...
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=4235,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(power_transformer_method='box-cox',
+                                                                         power_transformer_standardize=True,
+                                                                         random_state=4235),
+                                                 silent='warn', subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-07-30 02:25:35,526:INFO:Checking exceptions
+2022-07-30 02:25:35,526:INFO:Preloading libraries
+2022-07-30 02:28:45,449:INFO:Initializing load_model()
+2022-07-30 02:28:45,449:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:28:56,591:INFO:Initializing predict_model()
+2022-07-30 02:28:56,592:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['color', 'clarity'],
+                                      display_types=False,
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table', 'x', 'y',
+                                                          'z'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                tar...
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=4235,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(power_transformer_method='box-cox',
+                                                                         power_transformer_standardize=True,
+                                                                         random_state=4235),
+                                                 silent='warn', subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-07-30 02:28:56,592:INFO:Checking exceptions
+2022-07-30 02:28:56,592:INFO:Preloading libraries
+2022-07-30 02:30:01,509:INFO:Initializing load_model()
+2022-07-30 02:30:01,510:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:30:08,656:INFO:Initializing predict_model()
+2022-07-30 02:30:08,656:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['color', 'clarity'],
+                                      display_types=False,
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table', 'x', 'y',
+                                                          'z'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                tar...
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=4235,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(power_transformer_method='box-cox',
+                                                                         power_transformer_standardize=True,
+                                                                         random_state=4235),
+                                                 silent='warn', subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-07-30 02:30:08,656:INFO:Checking exceptions
+2022-07-30 02:30:08,656:INFO:Preloading libraries
+2022-07-30 02:30:26,531:INFO:Initializing load_model()
+2022-07-30 02:30:26,532:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:30:52,471:INFO:Initializing predict_model()
+2022-07-30 02:30:52,471:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['color', 'clarity'],
+                                      display_types=False,
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table', 'x', 'y',
+                                                          'z'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                tar...
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=4235,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(power_transformer_method='box-cox',
+                                                                         power_transformer_standardize=True,
+                                                                         random_state=4235),
+                                                 silent='warn', subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-07-30 02:30:52,471:INFO:Checking exceptions
+2022-07-30 02:30:52,471:INFO:Preloading libraries
+2022-07-30 02:33:27,168:INFO:Initializing load_model()
+2022-07-30 02:33:27,168:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:33:56,003:INFO:Initializing load_model()
+2022-07-30 02:33:56,003:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:37:18,958:INFO:Initializing load_model()
+2022-07-30 02:37:18,958:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:39:01,636:INFO:Initializing load_model()
+2022-07-30 02:39:01,637:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:40:10,571:INFO:Initializing load_model()
+2022-07-30 02:40:10,572:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:40:23,209:INFO:Initializing load_model()
+2022-07-30 02:40:23,209:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:43:17,286:INFO:Initializing load_model()
+2022-07-30 02:43:17,287:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)
+2022-07-30 02:43:59,813:INFO:Initializing load_model()
+2022-07-30 02:43:59,814:INFO:load_model(model_name=lightgbm_price_regressor, platform=None, authentication=None, verbose=False)

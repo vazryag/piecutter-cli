@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "piecutter-cli"
+version = "0.1.0"
+description = "A CLI tool for building ML projects from research to production in no time"
+authors = ["g0nz4rth <gonzarth@proton.me>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    { include = "piecutter" }
+]
+
+[tool.poetry.scripts]
+piecutter = "piecutter.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "0.6.1" 
+click = "8.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

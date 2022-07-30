@@ -1,0 +1,8 @@
+/.pytest_cache
+/piecutter/__pycache__
+/piecutter/commands/__pycache__
+/piecutter/frameworks/__pycache__
+/piecutter/templates/__pycache__
+/tests/__pycache__
+/examples/diamonds-prices-regression/venv
+/dist

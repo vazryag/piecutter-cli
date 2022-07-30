@@ -1,0 +1,12 @@
+service: 'service:svc'
+labels:
+    owner: g0nz4rth
+    stage: dev
+include:
+    - '*.py'
+    - '*.pkl'
+    - 'train.csv'
+python:
+    packages: # Pip packages required by your service
+        - pandas # It's just and example, remove if you don't need it
+        - pycaret==2.3.9

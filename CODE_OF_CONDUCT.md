@@ -1,0 +1,2 @@
+# Code of Conduct
+Everyone wishing to contribute to the Piecutter CLI project codebase and documentation is expected to follow the <a href="https://www.python.org/psf/conduct/" target="_blank">Python Software Foundation's Community Code of Conduct</a>. This includes, but isn't limited to: issue trackers, chat rooms, mailing lists, and other virtual or in real life communitation.
