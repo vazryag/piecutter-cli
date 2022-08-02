@@ -98,10 +98,6 @@ To generate a new project template, run:
 *You can check out this real world project implemented in our <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> folder*.
 
 ### Generate a New Bento
-| :warning: WARNING          |
-|:---------------------------|
-| Please, execute this command from the outside of your project root dir. This bug will be fixed in the next release!      |
-
 After having finished your modeling phase, use the `generate bento` command to generate your model deployable code:
 
     $ piecutter generate bento --base-framework pycaret
@@ -117,7 +113,9 @@ And a folder with the following structure will be added to your project director
 
 *You can see the real world version of this file in the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression/bento" target="_blank">examples/diamonds-prices-regression/bento</a>*.
 
-*OBS.: Please, execute this command form the outside of your project root dir. This bug will be fixed in the next release.*
+| :warning: WARNING          |
+|:---------------------------|
+| Please, execute this command from the outside of your project root dir. This bug will be fixed in the next release!      |
 
 ### Generate a New API Route
 The `piecutter generate bento` command generates the file responsible to start the BentoML server, but without any API endpoint. You can use the command below to generate a new secured/unsecured API endpoint.
