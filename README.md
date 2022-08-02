@@ -49,15 +49,15 @@ Well, BentoML's development is in full swing :steam_locomotive:, but this is goo
 
 Moreover, BentoML isn't capable of generating the research and the production structure in the same codebase :computer:, it isn't meant for that actually. Piecutter :cake: takes care of this integration and on top of that implements *Custom Runnables* for any unsupported framework as well as for more complex AI pipelines just by running one or two commands :tada:.
 
-## :heavy_check_mark: Supported Frameworks
-+ <a href="https://pycaret.org/" target="_blank">PyCaret</a>
-
-*OBS.: The first version of Piecutter has just been released and for now we only have support for **PyCaret** automated deployment code generation. (You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
-
 ## Features
 + Cross-platform: Windows, Linux and Mac are supported.
 + Works with Python 3.8, or a newer version.
 + Code formatting with Python Black.
+
+## :heavy_check_mark: Supported Frameworks
++ <a href="https://pycaret.org/" target="_blank">PyCaret</a>
+
+*OBS.: The first version of Piecutter has just been released and for now we only have support for **PyCaret** automated deployment code generation. (You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
 
 ## :bookmark_tabs: API Docs
 
