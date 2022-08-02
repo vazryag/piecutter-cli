@@ -54,6 +54,14 @@ Moreover, BentoML isn't capable of generating the research and the production st
 
 ## API Docs
 
+## Table of Contents
++ 1. Installation
++ 2. Check Version
++ 3. Open Documentation
++ 4. Create a New Project
++ 5. Generate a New Bento
++ 6. Generate a New API Route
+
 ### Installation
 Piecutter is available as a PyPI package, to install it, just run:
 
