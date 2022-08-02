@@ -52,7 +52,7 @@ Moreover, BentoML isn't capable of generating the research and the production st
 ## Supported Frameworks
 + <a href="https://pycaret.org/" target="_blank">PyCaret</a>
 
-*OBS.: The first version of Piecutter has just been released and for now we have support for **PyCaret** automated deployment code generation. (You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
+*OBS.: The first version of Piecutter has just been released and for now we only have support for **PyCaret** automated deployment code generation. (You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
 
 ## API Docs
 
