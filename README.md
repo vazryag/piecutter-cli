@@ -101,6 +101,7 @@ To generate a new project template, run:
 | :warning: WARNING          |
 |:---------------------------|
 | Please, execute this command from the outside of your project root dir. This bug will be fixed in the next release!      |
+
 After having finished your modeling phase, use the `generate bento` command to generate your model deployable code:
 
     $ piecutter generate bento --base-framework pycaret
