@@ -95,12 +95,13 @@ To generate a new project template, run:
         |    ├── test_train.py
     ------------
 
-You can check out this real world project implemented in our <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> folder.
-
-When you have your final model trained and ready for production, you need to generate a bento.
+*You can check out this real world project implemented in our <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> folder*.
 
 ### Generate a New Bento
-With the command shown below Piecutter will generate a `/bento` folder inside your project directory with all the necessary files to put your model into production as a docker image.
+| :warning: WARNING          |
+|:---------------------------|
+| Please, execute this command from the outside of your project root dir. This bug will be fixed in the next release!      |
+After having finished your modeling phase, use the `generate bento` command to generate your model deployable code:
 
     $ piecutter generate bento --base-framework pycaret
 
@@ -113,7 +114,7 @@ And a folder with the following structure will be added to your project director
         ├── train.py                -> Script to retrain your model (and serialize it in the current dir)
     ------------
 
-You can see the real world version of this file in the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression/bento" target="_blank">examples/diamonds-prices-regression/bento</a>.
+*You can see the real world version of this file in the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression/bento" target="_blank">examples/diamonds-prices-regression/bento</a>*.
 
 *OBS.: Please, execute this command form the outside of your project root dir. This bug will be fixed in the next release.*
 
