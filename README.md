@@ -5,7 +5,7 @@
         Piecutter-CLI 0.1.0 is released! :rocket:
     </h4>
     <p>
-        [![PyPI version](https://badge.fury.io/py/piecutter-cli.svg)](https://badge.fury.io/py/piecutter-cli)
+        <img src="https://badge.fury.io/py/piecutter-cli.svg" />
     </p>
 
 | :exclamation:  This package is starting as a personal project and is in it's initial development phase.   |
