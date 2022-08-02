@@ -115,7 +115,7 @@ And a folder with the following structure will be added to your project director
 
 | :warning: WARNING          |
 |:---------------------------|
-| Please, execute this command from the outside of your project root dir. This bug will be fixed in the next release!      |
+| Please, execute `generate bento` from the outside of your project root dir. This bug will be fixed in the next release!      |
 
 ### Generate a New API Route
 The `piecutter generate bento` command generates the file responsible to start the BentoML server, but without any API endpoint. You can use the command below to generate a new secured/unsecured API endpoint.
