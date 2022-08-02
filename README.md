@@ -79,6 +79,7 @@ Moreover, BentoML isn't capable of generating the research and the production st
 4. :new: Create a New Project
 5. :new: Generate a New Bento
 6. :carousel_horse: Generate a New API Route
+7. :cloud: BentoML Deployment on AWS
 ***
 
 ###  Installation
@@ -156,3 +157,6 @@ The `generate api-route` command has two possible [required] flags:
 *In the example above we've generated a new not-secured API route (endpoint) called `predict`*.
 
 *In the <a href="https://github.com/g0nz4rth/piecutter-cli/tree/main/examples/diamonds-prices-regression" target="_blank">example/diamonds-prices-regression</a> project I've generated an unsecure API endpoint for inference*.
+
+### BentoML Deployment on AWS
+To deploy your BentoML service to AWS, please, head over to the <a href="https://docs.bentoml.org/en/0.13-lts/deployment/aws_ec2.html" target="blank">official BentoML AWS Deployment documentation</a>.
