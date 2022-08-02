@@ -55,12 +55,12 @@ Moreover, BentoML isn't capable of generating the research and the production st
 ## API Docs
 
 ## Table of Contents
-1. Installation
-2. Check Version
-3. Open Documentation
-4. Create a New Project
-5. Generate a New Bento
-6. Generate a New API Route
+1. :satellite: Installation
+2. :heavy_check_mark: Check Version
+3. :closed_book: Open Documentation
+4. :new: Create a New Project
+5. :new: Generate a New Bento
+6. carousel_horse :carousel_horse: Generate a New API Route
 ***
 
 ### Installation
