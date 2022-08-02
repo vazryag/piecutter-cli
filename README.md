@@ -62,7 +62,7 @@ Moreover, BentoML isn't capable of generating the research and the production st
 ## :alien: Who Should Use Piecutter?
 + Anyone starting a career in data science.
 + People who like low-code solutions.
-+ Data scientists with no experience in software engineering and want a standardized solution for model packaging and deployment.
++ Data scientists with no experience in software engineering and want to go quickly from model research to package and production.
 
 ## :heavy_check_mark: Supported Frameworks
 + <a href="https://pycaret.org/" target="_blank">PyCaret</a>
