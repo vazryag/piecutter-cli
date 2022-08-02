@@ -3,8 +3,11 @@
     <h4>
         An open-source CLI app to build your entire ML project, from research to production. <br />
         Piecutter-CLI 0.1.0 is released! :rocket:
-    </h4> 
+    </h4>
 </div>
+
+| :exclamation:  This package is starting as a personal project and is in it's initial development phase   |
+|----------------------------------------------------------------------------------------------------------|
 
 ## Base Piecutter Project Structure
     ------------
@@ -27,7 +30,7 @@
     ------------
 
 ## Why Piecutter?
-Piecutter CLI is a project highly inspired by the well-known <a href="https://github.com/cookiecutter/cookiecutter" target="_blank">Cookiecutter</a> project. 
+Piecutter CLI is a project highly inspired by the well-known <a href="https://github.com/cookiecutter/cookiecutter" target="_blank">Cookiecutter</a> project.
 
 *But why another CLI app inspired in a well established one?*
 
