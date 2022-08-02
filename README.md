@@ -5,8 +5,8 @@
         Piecutter-CLI 0.1.0 is released! :rocket:
     </h4>
 
-    | :exclamation:  This package is starting as a personal project and is in it's initial development phase.   |
-    |-----------------------------------------------------------------------------------------------------------|
+| :exclamation:  This package is starting as a personal project and is in it's initial development phase.   |
+|-----------------------------------------------------------------------------------------------------------|
 </div>
 
 
