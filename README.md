@@ -4,6 +4,9 @@
         An open-source CLI app to build your entire ML project, from research to production. <br />
         Piecutter-CLI 0.1.0 is released! :rocket:
     </h4>
+    <p>
+        [![PyPI version](https://badge.fury.io/py/piecutter-cli.svg)](https://badge.fury.io/py/piecutter-cli)
+    </p>
 
 | :exclamation:  This package is starting as a personal project and is in it's initial development phase.   |
 |-----------------------------------------------------------------------------------------------------------|
