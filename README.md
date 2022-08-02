@@ -6,6 +6,7 @@
     </h4>
     <p>
         <img src="https://badge.fury.io/py/piecutter-cli.svg" />
+        <img src="https://img.shields.io/pypi/l/piecutter-cli" />
     </p>
 
 | :exclamation:  This package is starting as a personal project and is in it's initial development phase.   |
