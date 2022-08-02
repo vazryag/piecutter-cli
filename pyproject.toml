@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "piecutter-cli"
 version = "0.1.0"
-description = "A CLI tool for building ML projects from research to production in no time"
+description = "A CLI tool for building ML projects from research to production in no time."
 authors = ["g0nz4rth <gonzarth@proton.me>"]
 readme = "README.md"
-license = "MIT"
+license = "MIT License"
 packages = [
     { include = "piecutter" }
 ]
