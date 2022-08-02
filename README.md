@@ -118,7 +118,7 @@ And a folder with the following structure will be added to your project director
 | Please, execute `generate bento` from the outside of your project root dir. This bug will be fixed in the next release!      |
 
 ### Generate a New API Route
-After generating a `bento`, you need to generate at least one API endpoint to serve your model.
+After generating a `bento`, you need to generate at least one API endpoint to serve your model:
 
     $ piecutter generate api-route predict --no-secured
 
