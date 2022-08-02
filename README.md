@@ -72,7 +72,7 @@ Moreover, BentoML isn't capable of generating the research and the production st
 
 ## :bookmark_tabs: API Docs
 
-## :page_with_curl: Table of Contents
+### :page_with_curl: Table of Contents
 1. :satellite: Installation
 2. :heavy_check_mark: Check Version
 3. :closed_book: Open Documentation
