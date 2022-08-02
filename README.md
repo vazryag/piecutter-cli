@@ -60,8 +60,9 @@ Moreover, BentoML isn't capable of generating the research and the production st
 + Code formatting with Python Black.
 
 ## :alien: Who Should Use Piecutter?
++ Someone who wants a standard and consice data science project template.
 + Anyone starting a career in data science.
-+ People who like low-code solutions.
++ People who like low-code solutions in Python.
 + Data scientists with no experience in software engineering and want to go quickly from model research to package and production.
 
 ## :heavy_check_mark: Supported Frameworks
