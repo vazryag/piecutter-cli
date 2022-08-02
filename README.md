@@ -48,32 +48,33 @@ Well, BentoML's development is in full swing, and this is good and bad at the sa
 Moreover, BentoML isn't capable of generating the research and the production structure in the same codebase, it isn't meant for that actually. Piecutter takes care of this integration and on top of that implements *Custom Runnables* for any unsupported framework as well as for more complex AI pipelines just by running one or two commands.
 
 ## Supported Frameworks
-The first version of Piecutter has just been released and for now the package only has support for **PyCaret** deployment. *You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
++ <a href="https://pycaret.org/" target="_blank">PyCaret</a>
 
-## Installation
-To install `piecutter-cli` it's really simple.
+*OBS.: The first version of Piecutter has just been released and for now we have support for **PyCaret** automated deployment code generation. (You can expect support for all major frameworks in the coming days (I'm developing this package in my spare time, as fast as I can)*.
+
+## API Docs
+
+### Installation
+Piecutter is available as a PyPI package, to install it, just run:
 
     $ pip install piecutter-cli
 
-## Usage
-### Package Version
-With `piecutter-cli` installed, you're ready to use it! Run the command down below to check if it's working properly.
+### Check Version
+Run the `version` command to check if piecutter is installed:
 
     $ piecutter version
 
-### Package Documentation
-It should returns the current version of the package. You can also run the command down below to open the official documentation on the browser.
+### Open Documentation
+Use the `docs` command to quickly open the official documentation (this one you're reading) on your browser:
 
     $ piecutter docs
 
-And then this GitHub page should appear in your browser.
-
-### Generate a New Project
-To generate a new project structure you need to run:
+### Create a New Project
+To generate a new project template, run:
 
     $ piecutter new project --name diamonds-prices-regression
 
-In the example above we've created a new project called `diamonds-prices-regression` with the following structure:
+*In the example above we've created a new project called `diamonds-prices-regression` with the following structure*:
 
     ------------
         ├── Makefile              -> The Makefile of your project.
