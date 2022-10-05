@@ -6,3 +6,5 @@
 /tests/__pycache__
 /examples/diamonds-prices-regression/venv
 /dist
+/examples/diamonds-prices-regression/tests/__pycache__
+/test_files
