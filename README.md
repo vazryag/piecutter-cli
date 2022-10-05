@@ -6,7 +6,7 @@
     </h4>
     <p>
         <img src="https://img.shields.io/pypi/pyversions/piecutter-cli" />
-        <img src="https://img.shields.io/pypi/v/piecutter-cli" />
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/piecutter-cli">
         <img src="https://img.shields.io/pypi/l/piecutter-cli" />
     </p>
 </div>
