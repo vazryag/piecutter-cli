@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "piecutter-cli"
-version = "0.2.0"
+version = "0.2.4"
 description = "A CLI tool for building ML projects from research to production in no time."
 authors = ["g0nz4rth <arthurgs2007@gmail.com>"]
 readme = "README.md"
