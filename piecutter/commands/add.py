@@ -21,7 +21,7 @@ def api_endpoint(
         raise Exception("You have no service file in this project!")
 
     # Reading the service file
-    with open("service.py", "a") as f:
+    with open("service.py", "a", encoding="utf-8") as f:
         new_route_code = CoreCodes.generate_new_route_code(
             route_name=name, input_type=input, output_type=output
         )
@@ -53,7 +53,7 @@ def bento_build(base_framework: str = Option("custom")) -> None:
     ]
 
     for file in FILES_TO_ADD:
-        with open(file, "w") as f:
+        with open(file, "w", encoding="utf-8") as f:
             bento_file_content = CoreCodes(base_framework)
             bento_file_content = bento_file_content.get_writable_content(
                 current_file=os.path.split(file)[-1]
