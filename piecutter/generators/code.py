@@ -85,7 +85,7 @@ class CoreCodes(object):
         Returns:
             str: The requirements.txt file content as string.
         """
-        return "\n".join(("bentoml==1.0.0rc3", "pydantic"))
+        return "\n".join(("bentoml==1.0.7", "pydantic"))
 
     def __generate_api_config_file(self) -> str:
         """Generates the BentoML package-wide configuration file.
@@ -185,7 +185,7 @@ class CoreCodes(object):
                 "   SUPPORTS_CPU_MULTI_THREADING = True",
                 "",
                 "   def __init__(self):",
-                f"       self.model = bentoml.{self.base_framework}.get(MODEL_NAME)",
+                "       # self.model = your custom model load...",
                 "",
                 "   @bentoml.Runnable.method(batchable=False)",
                 "   def custom_logic(self, input_data):",
@@ -200,7 +200,7 @@ class CoreCodes(object):
                 "",
                 "",
                 "custom_runner = bentoml.Runner(CustomRunnable)",
-                "svc = bentoml.Service(SERVICE_NAME, runners=[custom_runner])",
+                "svc = bentoml.Service(SERVICE_NAME, runners=[custom_runner])"
             )
         )
 
@@ -221,7 +221,7 @@ class CoreCodes(object):
                 '- "/scripts/*.py"',
                 '- "requirements.txt"',
                 "exclude:  # List of what to not include in the prod build.",
-                '- "/scripts/load_model.py',
+                '- "/scripts/load_model.py"',
                 '- "/venv"',
                 '- "/references"',
                 '- "/reports"',
