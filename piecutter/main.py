@@ -50,7 +50,7 @@ def new(
 
     for file in generatable_files.get_generetable_files():
         print(f"Writing project file: {file}")
-        with open(file, "w") as f:
+        with open(file, "w", encoding="utf-8") as f:
             f.write(writable_framework_code.get_writable_content(file))
             f.close()
 
