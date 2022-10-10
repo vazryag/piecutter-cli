@@ -1,0 +1,29 @@
+service: "service:svc"  # The service file (do not change it!)
+description: "file: ./README.md"
+labels:
+  owner: your-name
+  stage: dev
+include:  # List of what will be in the prod build
+- "*.py"
+- "/models/*.pkl"
+- "/scripts/*.py"
+- "requirements.txt"
+exclude:  # List of what to not include in the prod build.
+- "/scripts/load_model.py"
+- "/venv"
+- "/references"
+- "/reports"
+- "/data"
+- "/notebooks"
+python:
+  requirements_txt: "./requirements.txt"  # List your pip packages
+  lock_packages: true
+  trusted_host:  # Add any trusted host you want
+  - "pypi.python.org"
+  pip_args: "--pre -U --force-reinstall"
+docker:
+  distro: debian
+  python_version: "3.8.12"
+  cuda_version: "11.6.2"  # Remove if you do not need CUDA
+  env:  # Put your environmental variables here
+  - FOO=value1

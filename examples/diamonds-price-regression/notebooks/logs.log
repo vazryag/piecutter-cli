@@ -1,0 +1,32 @@
+2022-10-07 14:35:56,925:INFO:Initializing load_model()
+2022-10-07 14:35:56,926:INFO:load_model(model_name=../models/lightgbm_price_regressor, platform=None, authentication=None, verbose=True)
+2022-10-07 14:37:56,222:INFO:Initializing predict_model()
+2022-10-07 14:37:56,222:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['color', 'clarity'],
+                                      display_types=False,
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table', 'x', 'y',
+                                                          'z'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                tar...
+                                                 min_child_samples=20,
+                                                 min_child_weight=0.001,
+                                                 min_split_gain=0.0,
+                                                 n_estimators=100, n_jobs=-1,
+                                                 num_leaves=31, objective=None,
+                                                 random_state=4235,
+                                                 reg_alpha=0.0, reg_lambda=0.0,
+                                                 regressor=LGBMRegressor(power_transformer_method='box-cox',
+                                                                         power_transformer_standardize=True,
+                                                                         random_state=4235),
+                                                 silent='warn', subsample=1.0,
+                                                 subsample_for_bin=200000,
+                                                 subsample_freq=0)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-10-07 14:37:56,222:INFO:Checking exceptions
+2022-10-07 14:37:56,223:INFO:Preloading libraries

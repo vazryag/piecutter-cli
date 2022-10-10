@@ -1,0 +1,11 @@
+api_server:
+  workers: 4
+  timeout: 60
+  http:
+    host: 0.0.0.0
+    port: 3000
+runners:
+  batching:
+    enabled: true
+    max_batch_size: 100
+    max_latency_ms: 10000
