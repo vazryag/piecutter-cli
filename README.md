@@ -9,6 +9,7 @@
         <img alt="PyPI" src="https://img.shields.io/pypi/v/piecutter-cli">
         <img src="https://img.shields.io/pypi/l/piecutter-cli" />
     </p>
+    <p>:recycle: As soon as possible I'll be rewriting this entire package. For now, it's unavailable.</p>
 </div>
 
 
